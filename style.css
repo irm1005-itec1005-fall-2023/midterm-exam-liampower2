@@ -32,6 +32,71 @@ html {
   font-size: 1.0rem;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.body {
+  .body {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+  display:flex;
+  flex-direction: column;
+  background-color: white;
+  color: black;
+  width: 31rem;
+  border-radius: 1rem;
+  background-color: #D2B48C;
+
+}
+
+.title{
+  font-size: 1rem;
+  text-align: left;
+  color:brown;
+  padding: 1rem;
+}
+
+
+
+.product-info {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.item-name{
+  font-size: 2rem;
+  align-items: center;
+  padding: 0.5rem;
+  color: brown;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.description {
+font-size: 1rem;
+text-align:center;
+padding: 1rem;
+
+}
+
+.price {
+  font-size: 2rem;
+  color: brown;
+
+}
+
+.buy-button {
+  font-size: 1rem;
+background-color: darkred;
+color: rgb(51, 7, 7);
+border: none;
+padding: 1rem 2rem;
+border-radius: 0.5rem;
+cursor: pointer;
+margin: 1rem 0;
 }
